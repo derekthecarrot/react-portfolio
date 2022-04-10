@@ -1,0 +1,124 @@
+/* Nav Bar */
+
+.header {
+  display: flex;
+  padding: 2rem; 
+  background-color: #D1D2F9;
+}
+
+.navbar {
+  display: flex;
+  
+}
+
+.navlist {
+  display: flex;
+  list-style-type: none;
+  text-align: right;
+  
+}
+
+.navlist li {
+  display: flex;
+  padding: 1rem;
+}
+
+/* Projects */
+
+a img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  width: 60%;
+  object-fit: cover;
+}
+
+.projhead {
+  text-align: center;
+}
+.projdesc {
+  text-align: center;
+}
+.projbuttondiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.projrepo {
+  text-align: center;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+   -khtml-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  
+}
+
+
+
+/* Footer */
+
+.footer {
+  border-top: 1px solid #D1D2F9
+}
+
+.footlist {
+  display: flex;
+  list-style-type: none;
+  text-align: right;
+}
+
+.footlist li {
+  display: flex;
+  padding: 1rem;
+}
+
+/* BUTTON CODE */
+
+
+button {
+	width: 150px;
+	height: 50px;
+	cursor: pointer;
+	border: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #7f5a83;
+	background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+	background-size: 200% 100%;
+	background-position: left;
+	background-repeat: no-repeat;
+	transition: 500ms;
+}
+
+button:before {
+	content: 'Repository';
+	color: rgba(255,255,255,0.5);
+	font-size: 16px;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 140px;
+	height: 40px;
+	background-color: #1b2845;
+	background-image: linear-gradient(315deg, #1b2845 0%, #274060 74%);
+	transition: 500ms;
+}
+
+button:hover {
+	background-position: right;
+}
+
+button:hover:before {
+	color: rgba(255,255,255,0.8);
+}
+
+button:focus {
+	outline: none;
+}
