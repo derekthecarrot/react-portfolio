@@ -1,8 +1,8 @@
 {
+  "homepage:": "https://derekthecarrot.github.io/react-portfolio/",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage:": "https://derekthecarrot.github.io/react-portfolio/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^12.1.4",
@@ -21,8 +21,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -b master -d build",
-    "predeploy": "npm run build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
