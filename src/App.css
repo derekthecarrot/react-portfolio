@@ -39,15 +39,25 @@
 }
 
 /* Projects */
-
-
+.divprojtop {
+  display: flex;
+}
+.projtop {
+  border-bottom: 1px solid;
+  border-image: linear-gradient(45deg, #576490, #D1D2F9, #A3BCF9, #576490 ) 1;
+  padding-top: 2rem;
+  margin-right: auto;
+  margin-left: auto;
+}
 a img {
+  margin-top: 2rem;
   display: block;
   margin-left: auto;
   margin-right: auto;
   height: 300px;
-  width: 60%;
+  width:70%;
   object-fit: cover;
+  border: 1px solid #C9CAD9
 }
 
 .projhead {
@@ -93,7 +103,7 @@ button {
 	align-items: center;
 	justify-content: center;
 	background-color: #7f5a83;
-	background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+	background-image: linear-gradient(315deg, #D1D2F9 0%, #0d324d 74%);
 	background-size: 200% 100%;
 	background-position: left;
 	background-repeat: no-repeat;
@@ -130,9 +140,14 @@ button:focus {
 /*Home Page*/
 
 .aboutme {
-  padding: 15rem 0 7rem 0rem;
+  display: flex;
+  padding: 15rem 0 6rem 0rem;
 }
 .aboutmeheader {
+  border-bottom: 1px solid;
+  border-image: linear-gradient(45deg, #576490, #D1D2F9, #A3BCF9, #576490 ) 1;
+  margin-right: auto;
+  margin-left: auto;
   font-weight: 300;
   font-family: Roboto Slab;
 }
@@ -142,15 +157,11 @@ button:focus {
   font-family: Roboto Slab;
 }
 
-.aboutmeimgdiv {
-
-}
-
 .aboutmeimg {
+  padding: 2rem;
   height: 700px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 5rem auto 5rem auto;
 }
 
 /* Footer */
@@ -161,6 +172,7 @@ button:focus {
   align-items: center;
   font-family: Roboto Slab;
   font-weight: 300;
+  background-color: #D1D2F9;
   border-top: 1px solid;
   border-image: linear-gradient(-45deg, #C9CAD9, #D1D2F9, #A3BCF9, #7796CB, #576490 ) 1;
 }
