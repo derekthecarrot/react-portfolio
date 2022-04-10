@@ -13,7 +13,7 @@ function Home () {
                             <h1 className='aboutmeheader'>About Me</h1>
                         </div>
                         <div>
-                            <p>
+                            <p className='aboutmedesc'>
                                 Hello, I'm currently in IT and looking for a career change into development/coding. 
                                 Some of my hobbies are gaming, longboarding, and drawing! 
                                 Below you can find some of the projects I've been working on. 

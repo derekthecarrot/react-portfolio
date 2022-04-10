@@ -3,8 +3,12 @@
 
 /* Nav Bar */
 
+a {
+  text-decoration: none;
+}
 
 .header {
+  color: #576490;
   font-weight: 300;
   font-family: Roboto Slab;
   display: flex;
@@ -30,12 +34,13 @@
   list-style-type: none;
   text-align: right;
   
-  
 }
 
 .navlist li {
   display: flex;
   padding: 1rem;
+  font-size: 1.2rem;
+
 }
 
 /* Projects */
@@ -144,6 +149,7 @@ button:focus {
   padding: 15rem 0 6rem 0rem;
 }
 .aboutmeheader {
+  color: #576490;
   border-bottom: 1px solid;
   border-image: linear-gradient(45deg, #576490, #D1D2F9, #A3BCF9, #576490 ) 1;
   margin-right: auto;
@@ -155,6 +161,7 @@ button:focus {
 .aboutmedesc {
   font-weight: 400;
   font-family: Roboto Slab;
+  color: #2E354D
 }
 
 .aboutmeimg {
@@ -175,6 +182,7 @@ button:focus {
   background-color: #D1D2F9;
   border-top: 1px solid;
   border-image: linear-gradient(-45deg, #C9CAD9, #D1D2F9, #A3BCF9, #7796CB, #576490 ) 1;
+  background-image: linear-gradient(45deg, #576490, #D1D2F9, #A3BCF9, #7796CB, #576490 95%);
 }
 
 .footlist {
