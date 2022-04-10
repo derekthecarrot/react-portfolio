@@ -5,7 +5,7 @@ function NavBar () {
     return (
         <React.Fragment>
             <div className='header'>
-                <h1>Jeffery Pastva</h1>
+                <h1 className='headertext'>Jeffery Pastva</h1>
             <nav className='navbar'>
                 <ul className='navlist'>
                     <li><Link to='/'>Home </Link></li>

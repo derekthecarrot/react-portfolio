@@ -1,20 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap');
+
+
 /* Nav Bar */
 
+
 .header {
+  font-weight: 300;
+  font-family: Roboto Slab;
   display: flex;
   padding: 2rem; 
   background-color: #D1D2F9;
+  border-bottom: 1px solid;
+  border-image: linear-gradient(45deg, #C9CAD9, #D1D2F9, #A3BCF9, #7796CB, #576490 ) 1;
+}
+
+.headertext {
+  font-weight: 300;
+  margin: 0.5rem;
 }
 
 .navbar {
   display: flex;
-  
+  margin-left: auto;
+  margin-right: 3rem;
 }
 
 .navlist {
   display: flex;
   list-style-type: none;
   text-align: right;
+  
   
 }
 
@@ -24,6 +39,7 @@
 }
 
 /* Projects */
+
 
 a img {
   display: block;
@@ -36,9 +52,12 @@ a img {
 
 .projhead {
   text-align: center;
+  font-family: Roboto Slab;
 }
 .projdesc {
   text-align: center;
+  font-family: Roboto Slab;
+  font-weight: 300;
 }
 .projbuttondiv {
   display: flex;
@@ -47,6 +66,8 @@ a img {
   margin-bottom: 2rem;
 }
 .projrepo {
+  font-family: Roboto Slab;
+  font-weight: 300;
   text-align: center;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -59,23 +80,6 @@ a img {
 }
 
 
-
-/* Footer */
-
-.footer {
-  border-top: 1px solid #D1D2F9
-}
-
-.footlist {
-  display: flex;
-  list-style-type: none;
-  text-align: right;
-}
-
-.footlist li {
-  display: flex;
-  padding: 1rem;
-}
 
 /* BUTTON CODE */
 
@@ -121,4 +125,53 @@ button:hover:before {
 
 button:focus {
 	outline: none;
+}
+
+/*Home Page*/
+
+.aboutme {
+  padding: 15rem 0 7rem 0rem;
+}
+.aboutmeheader {
+  font-weight: 300;
+  font-family: Roboto Slab;
+}
+
+.aboutmedesc {
+  font-weight: 400;
+  font-family: Roboto Slab;
+}
+
+.aboutmeimgdiv {
+
+}
+
+.aboutmeimg {
+  height: 700px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto Slab;
+  font-weight: 300;
+  border-top: 1px solid;
+  border-image: linear-gradient(-45deg, #C9CAD9, #D1D2F9, #A3BCF9, #7796CB, #576490 ) 1;
+}
+
+.footlist {
+  display: flex;
+  list-style-type: none;
+  text-align: right;
+}
+
+.footlist li {
+  display: flex;
+  padding: 1rem 3rem 1rem 3rem;
 }
