@@ -10,6 +10,7 @@ function NavBar () {
                 <ul className='navlist'>
                     <li><Link to='/'>Home </Link></li>
                     <li><Link to='/Projects'> My Projects </Link></li>
+                    <li><Link to='/Contact'> Contact Me </Link></li>
                 </ul>
             </nav>
             </div>

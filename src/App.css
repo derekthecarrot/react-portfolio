@@ -1,5 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap');
 
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+blockquote, pre, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
 
 /* Nav Bar */
 
@@ -11,8 +34,8 @@ a {
   color: #576490;
   font-weight: 300;
   font-family: Roboto Slab;
-  display: flex;
-  padding: 2rem; 
+  display: flex; 
+  flex-wrap: wrap;
   background-color: #D1D2F9;
   border-bottom: 1px solid;
   border-image: linear-gradient(45deg, #C9CAD9, #D1D2F9, #A3BCF9, #7796CB, #576490 ) 1;
@@ -20,25 +43,25 @@ a {
 
 .headertext {
   font-weight: 300;
-  margin: 0.5rem;
+  margin: 2rem;
 }
 
 .navbar {
   display: flex;
   margin-left: auto;
-  margin-right: 3rem;
 }
 
 .navlist {
   display: flex;
   list-style-type: none;
   text-align: right;
+  flex-wrap: wrap;
   
 }
 
 .navlist li {
   display: flex;
-  padding: 1rem;
+  padding: 0.8rem;
   font-size: 1.2rem;
 
 }
@@ -166,8 +189,9 @@ button:focus {
 
 .aboutmeimg {
   padding: 2rem;
-  height: 700px;
-  display: block;
+  max-width: 100%;
+  height: auto;
+  display: flex;
   margin: 5rem auto 5rem auto;
 }
 
@@ -188,10 +212,40 @@ button:focus {
 .footlist {
   display: flex;
   list-style-type: none;
-  text-align: right;
 }
 
 .footlist li {
   display: flex;
-  padding: 1rem 3rem 1rem 3rem;
+  padding: 1rem;
+}
+
+/*Contact Me*/
+
+.contactmediv {
+  padding: 10px;
+  display: flex;
+  border: 1px solid;
+  border-image: linear-gradient(-45deg, #C9CAD9, #D1D2F9, #A3BCF9, #7796CB, #576490 ) 1;
+  background-image: linear-gradient(45deg, #A3BCF9, #D1D2F9, #D1D2F9, #A3BCF9 95%);
+  margin: 3.5rem;
+  flex-direction: column;
+  
+}
+.contactmesec {
+  height: 50px;
+  width: 50px;
+}
+
+.contactspan {
+  display: flex;
+  font-family: Roboto Slab;
+  flex-wrap: wrap;
+  
+}
+
+.contactspan img {
+  margin: 1rem;
+}
+.contactp {
+  padding-top: 1.5rem;
 }

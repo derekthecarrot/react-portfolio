@@ -14,10 +14,15 @@ function Home () {
                         </div>
                         <div>
                             <p className='aboutmedesc'>
-                                Hello, I'm currently in IT and looking for a career change into development/coding. 
-                                Some of my hobbies are gaming, longboarding, and drawing! 
-                                Below you can find some of the projects I've been working on. 
-                                Clicking on the images will link you to the deployed application.
+                                Hello, My name is Jeffery Pastva and I'm a Full Stack Developer. 
+                                I bring strong leadership skills with articulate communication and multi-tasking to the table.
+                                I enjoy problem solving and paying attention to detail.
+
+                                Currently in the IT field, I support a wide range of issues and would like to bring the troubleshooting
+                                and problem solving skills into my love for code. I wanted a change so I took the Full Stack Development 
+                                bootcamp at University of North Carolina Chapel Hill where I learned HTML, CSS, and Javascript as well as frameworks and databases
+                                I love learning and I'm going to continue educating myself in the world of software engineering. 
+                                You can find some of my projects by clicking the "My Projects" tab!
                             </p>
                         </div>
                     </Col>
@@ -28,7 +33,7 @@ function Home () {
                     </Col>
                 </Row>
             </Container>
-</React.Fragment>
+        </React.Fragment>
 
     )
 }
