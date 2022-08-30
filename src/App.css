@@ -85,7 +85,8 @@ a img {
   height: 300px;
   width:70%;
   object-fit: cover;
-  border: 1px solid #C9CAD9
+  border: 1px solid #C9CAD9;
+  border-radius: 20px;
 }
 
 .projhead {

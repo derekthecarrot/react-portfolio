@@ -102,6 +102,17 @@ function Projects () {
                         </a>
                         </div>
                     </Col>
+                    <Col md={4}>
+                        <a href='https://derekthecarrot.github.io/Math-Tutoring/'><img src='./images/screenshot.PNG' alt='Project9' /></a>
+                        <h3 className='projhead'>Coding Quiz</h3>
+                        <p className='projdesc'>Use's react with conditional rendering to tell you if you are correct, validation using math.js - and using react state to store questions, results, and score.</p>
+                        <div className='projbuttondiv'>
+                        <a href='https://github.com/derekthecarrot/Math-Tutoring' target='_blank' rel='noreferrer'>
+                            <button className='projrepo'>
+                            </button>
+                        </a>
+                        </div>
+                    </Col>
                 </Row>
 		    </Container>
         </React.Fragment>

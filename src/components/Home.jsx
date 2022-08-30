@@ -20,7 +20,7 @@ function Home () {
 
                                 Currently in the IT field, I support a wide range of issues and would like to bring the troubleshooting
                                 and problem solving skills into my love for code. I wanted a change so I took the Full Stack Development 
-                                bootcamp at University of North Carolina Chapel Hill where I learned HTML, CSS, and Javascript as well as frameworks and databases
+                                bootcamp at University of North Carolina Chapel Hill where I learned HTML, CSS, and Javascript as well as frameworks and databases.
                                 I love learning and I'm going to continue educating myself in the world of software engineering. 
                                 You can find some of my projects by clicking the "My Projects" tab!
                             </p>
