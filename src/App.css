@@ -194,6 +194,7 @@ button:focus {
   height: auto;
   display: flex;
   margin: 5rem auto 5rem auto;
+  border-radius: 20px;
 }
 
 /* Footer */
